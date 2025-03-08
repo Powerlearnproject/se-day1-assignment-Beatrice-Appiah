@@ -16,6 +16,7 @@ ANSWER:
 3. This period is between late 1990s- Present. In the late 1990s, the Agile movement emerged as a response to the limitations of traditional, heavyweight methodologies. Agile methodologies, such as Scrum and Extreme Programming(XP), emphasized iterative development, collaboration and rapid feedback .DevOps further extended Agile principles by focusing on the integration of development and operations and promoting continuous delivery. Agile and DevOps have transformed the way software is developed and delivered. Faster developement cycles, improved responsive to changing requirements, have been enabled over the years. These approaches are crucial for meeting the meeting the demands of today's fast-paced and dynamic software industry.
 
 List and briefly explain the phases of the Software Development Life Cycle.
+ANSWER:
 1. Planning/Requirements Gathering: This is the initial phase where the project's goals, scope, and requirements are defined. It involves gathering information from stakeholders, analyzing user needs, and documenting the functional and non-functional requirements of the software. This mostly would involve; Feasibility studies, requirements elicitation, documentation, and defining project scope.
 2. Analysis/Design: In this phase, the requirements gathered in the previous phase are analyzed in detail. The system's architecture, data models, and user interfaces are designed. This phase focuses on creating a blueprint for the software. This stage involves; Creating design documents, data flow diagrams, entity-relationship diagrams, and user interface mockups.
 3. Implementation/Development: This is where the actual coding of the software takes place. Developers write the code based on the design specifications created in the previous phase. This pha eis focused on; Writing code, unit testing, and integrating different modules of the software.
@@ -31,6 +32,7 @@ List and briefly explain the phases of the Software Development Life Cycle.
 
 
 Compare and contrast the Waterfall and Agile methodologies. Provide examples of scenarios where each would be appropriate.
+ANSWER:
 Just like a recipe, do all of the steps sequentially. Can't go back easily.
 * Works especially well for: Items that stay consistently the same (such as home construction).
 
@@ -47,20 +49,20 @@ Discussions with other people | Not to such a degree | A quantity in discussion
 * **Agile:** Use within processes when changes can occur or input is required during the process.
 
 Describe the roles and responsibilities of a Software Developer, a Quality Assurance Engineer, and a Project Manager in a software engineering team.
-* The builder. They use resources and supplies for the building of the house as planned.
-* The inspector. They thoroughly check throughout the house for certain problems, along with leaky roofs as well as crooked walls.
-* The architect. The team develops the schedule beforehand, confirms the proper resources are accessible to all, and supervises the work as it proceeds.
+ANSWER:
+Let's take the scenario of a building project to define their responsiblities;
+* The builder(Software Developer): They use resources and supplies for the building of the house as planned.
+* The inspector(Quality Assurance Engineer): They thoroughly check throughout the house for certain problems, along with leaky roofs as well as crooked walls.
+* The architect(Project manager): The team develops the schedule beforehand, confirms the proper resources are accessible to all, and supervises the work as it proceeds.
 
 The builder is on the job. Each house is under construction.
 * The inspector tells the builder what problems to remedy.
 The architect makes sure of everyone's teamwork together, and of the house's construction in time and within budget.
 
+
 Discuss the importance of Integrated Development Environments (IDEs) and Version Control Systems (VCS) in the software development process. Give examples of each.
-0% of your text is likely AI-generated
-
-New version:
+ANSWER:
 Imagine building with LEGO:
-
 * **IDE (like Visual Studio Code or PyCharm):** Think of it as your LEGO toolbox. It contains everything you need in one spot:
     * Various compartments to sort your bricks (code).
     * Handy tools to connect bricks effortlessly (write code more quickly).
@@ -72,68 +74,50 @@ Imagine building with LEGO:
     * Creating different versions of your build (develop various features).
     * Sharing your instructions with friends so they can join in the building (collaborate on code).
 
-In summary, IDEs enable you to build more efficiently, while VCS helps you manage your project and collaborate with others. Both are essential for crafting amazing LEGO creations (or software)
+In summary, IDEs enable you to build more efficiently, while VCS helps you manage your project and collaborate with others. Both are essential for crafting amazing LEGO creations (or software).
 
+What are some common challenges faced by software engineers? Provide strategies to overcome these challenges.
+ANSWER:
+**1. Technical Debt (Accumulation of Poor Code):**
 
-80% of your text is likely AI-generated
+* **Problem:** Outdated and messy code can hinder progress.
+* **Solution:**
+    * Regularly refactor the code to improve its structure.
+    * Establish coding standards to avoid future complications.
+    * Implement automated testing to ensure that fixes don’t introduce new issues.
 
-New version:
-Here’s a simplified version of the complex answers, formatted for easy studying:
+**2. Changing Requirements (Shifting Goals):**
 
-**1. HTML Limitations:**
+* **Problem:** The software's requirements are constantly evolving.
+* **Solution:**
+    * Adopt Agile methodologies (like Scrum) for quick adaptability.
+    * Maintain clear communication with all stakeholders.
+    * Design the software to be adaptable to changes.
 
-* **Structure, not meaning:** HTML defines appearance, not semantics.
-* **Poor data sharing:** Ineffective for data transfer between systems.
-* **Simple data only:** Struggles with complex data structures.
-* **Security risks:** Vulnerable to code injection attacks.
+**3. Debugging (Locating Elusive Bugs):**
 
-**2. JavaScript:**
+* **Problem:** Difficult-to-detect bugs can consume a lot of time.
+* **Solution:**
+    * Decompose the issue into smaller, manageable parts.
+    * Utilize logging tools to monitor the software’s behavior.
+    * Collaborate with fellow engineers for additional insights.
 
-* **What it is:** A programming language for interactive websites.
-* **Limitations:**
-    * Executes in the browser, which can slow it down.
-    * Users can manipulate it, posing security risks.
-    * Behavior varies across different browsers.
-    * Server-side capabilities are less developed compared to other languages.
+**4. Legacy Code (Dealing with Outdated Systems):**
 
-**3. Web App Disadvantages:**
+* **Problem:** Old code can be perplexing and challenging to modify.
+* **Solution:**
+    * Document the functionality of the code thoroughly.
+    * Write tests prior to making any changes.
+    * Gradually enhance the codebase over time.
 
-* **Needs internet:** Performance suffers with a poor connection.
-* **Security risks:** Code is accessible to users.
-* **Offline problems:** Non-functional without internet access.
-* **Browser issues:** May not perform consistently across all browsers.
-* **Limited hardware access:** Cannot utilize all device features.
+**5. Communication/Collaboration (Team Dynamics):**
 
-**4. Web App vs. Other Apps:**
+* **Problem:** Miscommunication and conflicts can arise.
+* **Solution:**
+    * Ensure clear communication and active listening.
+    * Schedule regular team meetings to stay aligned.
+    * Utilize collaborative online tools to facilitate teamwork.
 
-* **Native apps:** Offer faster performance, superior user experience, and offline functionality.
-* **Desktop apps:** Provide direct hardware access, work offline, and require installation.
-
-**5. Horizontal Navigation:**
-
-* **HTML:** Use `<ul>`, `<li>`, `<a>` to create a link list.
-* **CSS:** Apply `display: flex;` to arrange links in a row.
-* **Responsive:** Implement media queries to adjust layout on smaller screens (stack links, use a menu icon).
-
-**6. JavaScript Change Text:**
-
-* **HTML:** Create a button with `onclick`, and an element with `id="demo"`.
-* **JavaScript:** Use `document.getElementById("demo").textContent = "new text";`
-
-**7. Form Validation:**
-
-* **JavaScript:** Verify that "name" and "email" fields are filled before submission.
-* **If empty:** Display an error message.
-
-**8. Webpage Styling:**
-
-* **Headings:** Set `font-family`, `font-size`, `color`.
-* **Paragraphs:** Define `font-family`, `font-size`, `line-height`.
-* **Footer:** Style with `background-color`, `padding`, `text-align`.
-
-**9. Responsive Design:**
-
-* **Adapts to screen size:** Ensures websites
 
 Explain the different types of testing (unit, integration, system, and acceptance) and their importance in software quality assurance.
 40% of your text is likely AI-generated
